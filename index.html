@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Registration</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="form-box">
+    <h2>Register</h2>
+    <form id="regForm">
+        <div class="input-group">
+            <input type="text" id="name" placeholder="Name">
+        </div>
+        <div class="input-group">
+            <input type="email" id="email" placeholder="Email">
+        </div>
+        <div class="input-group">
+            <select id="dept">
+                <option value="">Department</option>
+                <option>CSE</option>
+                <option>ECE</option>
+                <option>EEE</option>
+                <option>MECH</option>
+            </select>
+        </div>
+        <div class="input-group">
+            <select id="year">
+                <option value="">Year</option>
+                <option>1st Year</option>
+                <option>2nd Year</option>
+                <option>3rd Year</option>
+                <option>4th Year</option>
+            </select>
+        </div>
+        <div class="input-group">
+            <input type="text" id="project" placeholder="Project Title">
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+    <div class="success" id="successMsg">🎉 Registration Successful!1</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
